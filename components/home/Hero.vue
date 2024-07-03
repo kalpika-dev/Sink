@@ -12,18 +12,6 @@ const { title, description } = useAppConfig()
   >
     <div>
       <div class="flex flex-col gap-3 mt-6 sm:flex-row">
-        <HomeLink
-          href="/dashboard"
-          target="_blank"
-          title="Dashboard"
-          class="flex items-center justify-center gap-1"
-          rel="noopener"
-        >
-          <AreaChart
-            class="w-5 h-5"
-          />
-          Dashboard
-        </HomeLink>
       </div>
     </div>
     <div class="hidden py-6 md:block">
